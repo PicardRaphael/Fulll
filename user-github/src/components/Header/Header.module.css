@@ -1,0 +1,18 @@
+.Header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.HeaderImg {
+    width: 20%;
+    height: auto;
+}
+
+.HeaderTitle {
+    color: rgb(201, 209, 217);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}

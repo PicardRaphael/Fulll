@@ -1,0 +1,19 @@
+
+.NotFound {
+    text-align: center;
+    color: rgb(201, 209, 217);
+}
+
+.ListLi {
+    color: #2da44e;
+    margin-bottom: 0.5rem;
+}
+
+.ListLink {
+    color: rgb(201, 209, 217);
+    text-decoration: none;
+}
+
+.ListLink:hover {
+    color: rgb(31, 111, 235);
+}

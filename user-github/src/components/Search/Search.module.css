@@ -1,0 +1,53 @@
+.SearchForm {
+    background-color: rgb(22, 27, 34);
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    border-radius: 0.375rem;
+    border: 0.063rem solid rgb(33, 38, 45);
+    margin-bottom: 2rem;
+}
+
+.SearchLabel {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.SearchInput {
+    width: calc(100% - 1.625rem);
+    margin-bottom: 1rem;
+    padding: 0.313rem 0.75rem;
+    background-color: rgb(13, 17, 23);
+    color: rgb(201, 209, 217);
+    border: 0.063rem solid rgb(48, 54, 61);
+    font-size: 0.8rem;
+    font-weight: 300;
+    border-radius: 0.375rem;
+}
+
+.SearchInput:focus {
+    outline: none;
+    border: 0.063rem solid rgb(31, 111, 235);
+    box-shadow: rgb(12 45 107) 0rem 0rem 0rem 0.188rem;
+}
+.SearchInputError {
+    border: 1px solid #A51B0B;
+    box-shadow: 0px 0px 0px 3px #52170B;
+}
+.SearchButton {
+    cursor: pointer;
+    width: 100%;
+    background: #2da44e;
+    color: #FFF;
+    font-family: Work Sans, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid rgba(240, 246, 252, 0.1);
+    padding: 5px 12px;
+    border-radius: 6px;
+}
+.SearchButton:hover {
+    background-color: #2c974b;
+}
